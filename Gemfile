@@ -4,7 +4,6 @@ gem 'rails'
 
 gem 'gravatar_image_tag'
 gem 'will_paginate'
-gem 'sqlite3'
 
 # Asset template engines
 gem 'sass-rails'
@@ -12,6 +11,14 @@ gem 'coffee-script'
 gem 'uglifier'
 
 gem 'jquery-rails'
+
+group :production do
+  gem 'pg'
+end
+
+group :development, :test do
+  gem 'sqlite3-ruby', :require => "sqlite3"
+end
 
 group :development do
   gem 'rspec-rails'
