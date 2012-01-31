@@ -4,6 +4,7 @@ gem 'rails'
 
 gem 'gravatar_image_tag'
 gem 'will_paginate'
+gem 'activemodel'
 
 # Asset template engines
 gem 'sass-rails'

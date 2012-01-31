@@ -133,6 +133,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activemodel
   annotate
   coffee-script
   factory_girl_rails
